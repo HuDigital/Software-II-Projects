@@ -1,0 +1,21 @@
+PROGRAM Test IS
+
+  INSTRUCTION one IS
+     two
+  END one
+  
+  INSTRUCTION two IS
+     three
+  END two
+  
+  INSTRUCTION three IS
+     four
+  END three
+  
+  INSTRUCTION four IS
+     move
+  END four
+
+BEGIN
+  one
+END Test
